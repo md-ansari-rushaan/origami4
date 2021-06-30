@@ -1,0 +1,91 @@
+
+    #Header {
+        display: flex;
+        background: #000000;
+        /* flex-direction: column; */
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 15px;
+        height: 40px;
+    }
+
+    .container {
+        width: 25px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    #Header a {
+        text-decoration: none;
+        /* color: #ffffff; */
+    }
+
+    #Header a:hover {
+        
+        color: #0000ff;
+    }
+
+    .IMG {
+        width: 200px;
+        height: 200px;
+        border: 2px solid #000000;
+        border-radius: 40px;
+    }
+
+    #Para {
+        color: #ffffff;
+    }
+
+    .container2 {
+        background: url('/main2.jpg');
+        color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+    }
+
+    #headH {
+        font-size: 40px;
+    }
+
+    .HeadH2 {
+        margin: 0px;
+        padding: 0px;
+        font-size: 13px;
+
+    }
+
+    .container:hover {
+        cursor: pointer;
+    }
+
+    .container3 {
+        border: 5px solid #e5e5e5;
+        /* padding: 20px 163px; */
+        display: flex;
+        /* margin: 10px 135px; */
+        /* width: 275px; */
+        width: 475px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .bigC {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    nav a:link{
+        color: white;
+    }
+    nav a:visited{
+        color: green;
+    }
+    .container3:hover{
+        transform: scale(1.2);
+    }
